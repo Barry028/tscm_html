@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'tn';
+  src:  url('fonts/tn.eot?ws03t0');
+  src:  url('fonts/tn.eot?ws03t0#iefix') format('embedded-opentype'),
+    url('fonts/tn.ttf?ws03t0') format('truetype'),
+    url('fonts/tn.woff?ws03t0') format('woff'),
+    url('fonts/tn.svg?ws03t0#tn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tn' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tn-burger:before {
+  content: "\e90e";
+}
+.tn-magnifying-glass:before {
+  content: "\e90d";
+}
+.tn-classify:before {
+  content: "\e90b";
+}
+.tn-fax:before {
+  content: "\e900";
+}
+.tn-map:before {
+  content: "\e901";
+}
+.tn-classic-phone:before {
+  content: "\e902";
+}
+.tn-email:before {
+  content: "\e903";
+}
+.tn-arrow-bt:before {
+  content: "\e904";
+}
+.tn-arrow-direction-rt:before {
+  content: "\e905";
+}
+.tn-people:before {
+  content: "\e906";
+}
+.tn-open:before {
+  content: "\e907";
+}
+.tn-mps:before {
+  content: "\e908";
+}
+.tn-tickets:before {
+  content: "\e909";
+}
+.tn-rocket:before {
+  content: "\e90a";
+}
+.tn-group:before {
+  content: "\e90c";
+}

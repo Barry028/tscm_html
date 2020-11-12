@@ -1,0 +1,45 @@
+@charset "utf-8";
+/** –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Layout > Breadcrumbs
+// ––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.breadcrumbs {
+	background-color: #FDF3EA;
+	padding: .75rem 2rem;
+	border-bottom: 2px solid #FF9138;
+}
+
+.breadcrumbs ul {
+	padding: 0 2rem;
+}
+
+// .breadcrumbs ul:before {
+// 	content: '';
+// 	background: url('../img/breadcrumb.svg') no-repeat center center;
+// 	position: absolute;
+// 	left: 0;
+// 	top: 0;
+// 	width: 1.5rem;
+// 	height: 1.5rem;
+// }
+
+.breadcrumbs ul li {
+	display: inline-block;
+	margin-right: 1.5rem;
+}
+
+.breadcrumbs ul li:not(:last-child):after {
+	content: '>';
+	position: absolute;
+	right: -1rem;
+	top: 0;
+}
+
+.breadcrumbs ul li a {
+	color: #FF9138;
+	text-decoration: underline
+}
+
+.breadcrumbs ul li a:hover {
+	color: #fff
+}

@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <title>臺南市 兒童科學館</title>
+    <!-- Animate  -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- iCon  -->
+    <link rel="stylesheet" type="text/css" href="vendor/tn-v1.0/style.css">
+    <link rel="stylesheet" type="text/css" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<!--     <link rel="stylesheet" type="text/css" href="css/tscm.css" -->
+    <!--[if lte IE 9]>
+        <script src="vender/html5shiv/dist/html5shiv.min.js"></script>
+        <script src="vender/respond/dest/respond.min.js"></script>
+        <script src="vender/Placeholders/dist/placeholders.jquery.min.js"></script>
+        <script src="vender/Placeholders/dist/placeholders.prototype.min.js"></script>
+        <script src="vender/Placeholders/dist/placeholders.yui3.min.js"></script>
+    <![endif]-->
+    <script src="js/fonts.js"></script>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="clear-fix">
+                            <a href="index.html" class="logo-mobile">
+                                <img src="img/tscm_logo.svg" alt="兒童科學館" class="logo-b">
+                            </a>
+                            <li class="hidden-sm-up">
+                                <a href="javascript:;" class="burger" id="Burger">
+                                    <i class="tn-burger"></i>
+                                </a>
+                            </li>
+                            <li class="hidden-sm">
+                                <a href="javascript:;">
+                                    登　入
+                                </a>
+                            </li>
+                            <li class="hidden-sm">
+                                <a href="javascript:;">
+                                    網站導覽
+                                </a>
+                            </li>
+                            <li class="hidden-sm">
+                                <a href="javascript:;">
+                                    南瀛天文館
+                                </a>
+                            </li>
+                            <li class="select-box">
+                                <div class="select-box__current" tabindex="1">
+                                    <div class="select-box__value">
+                                        <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked">
+                                        <p class="select-box__input-text">English</p>
+                                    </div>
+                                    <div class="select-box__value">
+                                        <input class="select-box__input" type="radio" id="1" value="2" name="Ben" checked="checked">
+                                        <p class="select-box__input-text">Chinese</p>
+                                    </div>
+                                    <i class="tn-arrow-bt select-box__icon"></i>
+                                </div>
+                                <ul class="select-box__list">
+                                    <li>
+                                        <label class="select-box__option" for="0" aria-hidden="aria-hidden">English</label>
+                                    </li>
+                                    <li>
+                                        <label class="select-box__option" for="1" aria-hidden="aria-hidden">Chinese</label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="index.html">
+                            <img src="img/tscm_logo.svg" alt="兒童科學館" class="logo">
+                        </a>
+                        <div class="rt-blk">
+                            <a href="javascript:;" class="tn-btn">
+                                <i class="tn-classify"></i>
+                                分類檢索
+                            </a>
+                            <div class="search-input">
+                                <input type="text" class="input-search" placeholder="請輸入關鍵字 ...">
+                                <a href="javascript:;" class="input-btn">
+                                    <i class="tn-magnifying-glass mr-8"></i>
+                                    搜 尋
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-bar" id="navBar">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:;">
+                            首頁
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            認識兒科
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">兒科簡介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">組織編制及業務分工</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">館長簡介</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            參觀服務
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">親子科學遊戲區</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">參觀訊息</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">樓層簡介</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">當期特展</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">文創商品</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">行事曆</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            展　　覽
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">活動報名</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">團體預約</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">場地租借</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">討論區</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">常見問答</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">線上投票</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">線上投票</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">文創商品</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">意見反應</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">2020團體優質輕旅行專案</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            教育活動
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">組織章程</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">館長介紹</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">組織編制</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">天文展示館</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">天文觀測館</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">星象館</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">園區環境生態</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">日晷餐廳</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            線上服務
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">組織章程</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">召募辦法</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">加入長期志工</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">學生短期公共服務</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">輪值表</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">志工活動照片</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">志工論壇</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">志工資料管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            志工園地
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">學習單下載</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">教材和教案</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">相關資訊連結</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">政府資訊公開</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:;">
+                            公開資訊
+                            <i class="tn-arrow-bt"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="javascript:;">學習單下載</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">教材和教案</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">相關資訊連結</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="javascript:;">政府資訊公開</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sm-sub-header" id="mobile_login">
+            <a href="javascript:;" class="login">登　入</a>
+            <a href="javascript:;" class="search-bar">
+                <i class="tn-magnifying-glass"></i>
+                <input type="text" placeholder="search">
+            </a>
+        </div>
+    </header>
+    <!-- End Header -->
+    <section class="slider-banner">
+        <div class="owl-carousel owl-theme" id="banner">
+            <img src="img/banner_1.png" alt="banner" style="width: 100%">
+            <img src="img/banner_1.png" alt="banner" style="width: 100%">
+        </div>
+    </section>
+    <section class="section-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">
+                        <p class="en">LATEST NEWS</p>
+                        <p class="ch">最新消息</p>
+                    </h2>
+                    <ul class="news">
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--primary">活動</label>
+                                <a class="txt" href="javascript:;">
+                                    2020臺南天文嘉年華「火星大驚奇」驚奇登場！暑假期間快來南瀛天文館，體驗天文的精彩魅力！
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--primary pl-16">活動</label>
+                                <a class="txt" href="javascript:;">
+                                    【逗天機－親子趣味天文擂臺賽】送獎品 ! 拿獎金 !! 即刻報名 !!!
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--primary pl-16">活動</label>
+                                <a class="txt" href="javascript:;">
+                                    【逗天機－親子趣味天文擂臺賽】送獎品 ! 拿獎金 !! 即刻報名 !!!
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--sceondary pl-16">公告</label>
+                                <a class="txt" href="javascript:;">
+                                    【逗天機－親子趣味天文擂臺賽】送獎品 ! 拿獎金 !! 即刻報名 !!!
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--alerts pl-16">其他</label>
+                                <a class="txt" href="javascript:;">
+                                    2020臺南天文嘉年華「火星大驚奇」驚奇登場！暑假期間快來南瀛天文館，體驗天文的精彩魅力！
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--primary pl-16">活動</label>
+                                <a class="txt" href="javascript:;">
+                                    【逗天機－親子趣味天文擂臺賽】送獎品 ! 拿獎金 !! 即刻報名 !!!
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news-content">
+                                <div class="news-sub mr-16">
+                                    <div class="year-cnt">
+                                        <span class="year">2020</span>
+                                    </div>
+                                    <div class="date-cnt">
+                                        <span class="date">07/03</span>
+                                        <span class="day">SAT.</span>
+                                    </div>
+                                </div>
+                                <label class="n-badge n-badge--primary pl-16">活動</label>
+                                <a class="txt" href="javascript:;">
+                                    【逗天機－親子趣味天文擂臺賽】送獎品 ! 拿獎金 !! 即刻報名 !!!
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="more">
+                        <a class="btn--more " href="javascript:;">
+                            更多最新消息
+                            <i class="tn-arrow-direction-rt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card-menu">
+        <div class="mask mask_primary"></div>
+        <div class="container">
+            <ul class="card-menu-list clear-fix">
+                <li>
+                    <a href="javascript:;">
+                        <div class="card--img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="161" height="162" viewBox="0 0 161 162">
+                                <defs>
+                                    <style>.a{fill:#ea77ad;opacity:0.12;}.b{fill:#ff9138;opacity:0.14;}</style>
+                                </defs>
+                                <g transform="translate(0.235)">
+                                    <ellipse class="a" cx="76.5" cy="77" rx="76.5" ry="77" transform="translate(7.765 8)" />
+                                    <circle class="b" cx="76.5" cy="76.5" r="76.5" transform="translate(-0.235)" />
+                                </g>
+                            </svg>
+                            <img src="img/menu-icon-1.svg" alt="團體預約">
+                        </div>
+                        <button class="card--btn">團體預約</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="card--img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="161" height="162" viewBox="0 0 161 162">
+                                <defs>
+                                    <style>.a{fill:#ea77ad;opacity:0.12;}.b{fill:#ff9138;opacity:0.14;}</style>
+                                </defs>
+                                <g transform="translate(0.235)">
+                                    <ellipse class="a" cx="76.5" cy="77" rx="76.5" ry="77" transform="translate(7.765 8)" />
+                                    <circle class="b" cx="76.5" cy="76.5" r="76.5" transform="translate(-0.235)" />
+                                </g>
+                            </svg>
+                            <img src="img/menu-icon-2.svg" alt="活動報名">
+                        </div>
+                        <button class="card--btn">活動報名</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="card--img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="161" height="162" viewBox="0 0 161 162">
+                                <defs>
+                                    <style>.a{fill:#ea77ad;opacity:0.12;}.b{fill:#ff9138;opacity:0.14;}</style>
+                                </defs>
+                                <g transform="translate(0.235)">
+                                    <ellipse class="a" cx="76.5" cy="77" rx="76.5" ry="77" transform="translate(7.765 8)" />
+                                    <circle class="b" cx="76.5" cy="76.5" r="76.5" transform="translate(-0.235)" />
+                                </g>
+                            </svg>
+                            <img src="img/menu-icon-3.svg" alt="會員專區">
+                        </div>
+                        <button class="card--btn">會員專區</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <div class="card--img">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="161" height="162" viewBox="0 0 161 162">
+                                <defs>
+                                    <style>.a{fill:#ea77ad;opacity:0.12;}.b{fill:#ff9138;opacity:0.14;}</style>
+                                </defs>
+                                <g transform="translate(0.235)">
+                                    <ellipse class="a" cx="76.5" cy="77" rx="76.5" ry="77" transform="translate(7.765 8)" />
+                                    <circle class="b" cx="76.5" cy="76.5" r="76.5" transform="translate(-0.235)" />
+                                </g>
+                            </svg>
+                            <img src="img/menu-icon-4.svg" alt="當期特展">
+                        </div>
+                        <button class="card--btn">當期特展</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="card-menu-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card-menu-sec-cnt">
+                        <h6 class="title">
+                            <img src="img/icon-v.svg" alt="影音專區">
+                            <font>影音專區</font>
+                        </h6>
+                        <div class="cnt">
+                            <img src="img/img-v1.png" alt="">
+                            <p>索馬聖地 X 渡河拱橋 X 蘑菇傳輸站</p>
+                            <a href="javascript:;" class="card--btn">前往影音專區
+                                <i class="tn-arrow-direction-rt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card-menu-sec-cnt">
+                        <h6 class="title">
+                            <img src="img/icon-b.svg" alt="交通位置">
+                            <font>交通位置</font>
+                        </h6>
+                        <div class="cnt">
+                            <img src="img/img-v2.png" alt="">
+                            <p>704033 臺南市北區公園北路 5 號</p>
+                            <a href="javascript:;" class="card--btn">詳細交通位置
+                                <i class="tn-arrow-direction-rt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 hidden-sm">
+                    <div class="card-menu-sec-cnt">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwww.csec.tn.edu.tw%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="card-menu-sec-cnt linkcnt">
+                        <h6 class="title">
+                            <img src="img/icon-l.svg" alt="外部連結">
+                            <font>外部連結</font>
+                        </h6>
+                        <div class="owl-carousel owl-theme" id="relate_link">
+                            <a href="javascript:;">
+                                <img src="img/link1.png" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/link2.png" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/link3.png" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/link4.png" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/link5.png" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/link6.png" alt="">
+                            </a>
+                            <a href="javascript:;">
+                                <img src="img/link7.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div><img src="img/img-chi.svg" alt="children" class="children">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="container">
+            <ul class="another-links">
+                <li>
+                    <a href="javascript:;">
+                        資訊安全
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        網站隱私權聲明
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        政府網站資料開放宣告
+                    </a>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <img src="img/logo-s.svg" alt="兒童科學館">
+                    <div class="opening">
+                        <div class="header">今日開館時間</div>
+                        <div class="cnt">
+                            <p class="date">2020 / 08 / 07 星期五</p>
+                            <p class="time">09:00 — 17:00</p>
+                            <p class="remark">每週一、除夕、年初一固定休館</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <ul class="footer-list list-contact">
+                        <li>
+                            <i class="tn-classic-phone"></i>
+                            +886-6-2224583
+                        </li>
+                        <li>
+                            <i class="tn-fax"></i>
+                            +886-6-2222675
+                        </li>
+                        <li>
+                            <i class="tn-map"></i>
+                            704033 臺南市北區公園北路 5 號
+                        </li>
+                        <li>
+                            <i class="tn-email"></i>
+                            Service@taea.tn.edu.tw
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear-fix-md"></div>
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <ul class="footer-list">
+                        <li>
+                            開放時間：周三至周日上午9點到下午5點
+                        </li>
+                        <li>
+                            建議瀏覽器：IE 9+、Firefox 39+、Chrome 44+、Safari、Edge
+                        </li>
+                        <li>
+                            <span>
+                                今日人數：<strong>694</strong>
+                            </span>
+                            <span>
+                                本月人數：<strong>40802</strong>
+                            </span>
+                        </li>
+                        <li>
+                            最佳觀看效果建議使用螢幕解析度 1280x1024 以上
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-xs-12">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwww.csec.tn.edu.tw%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                    <img src="img/aplus@2x.png" alt="無障礙" class="mt-16 aplus">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    臺南市南瀛天文館 版權所有 Copyrights © 2020 Tainan Astronomical Education Area.All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JQuery -->
+    <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+    <!-- Owl Carousel-->
+    <script type="text/javascript" src="vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- Bootstrap Bundle -->
+    <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Loader -->
+    <script type="text/javascript" src="js/components/pace.js"></script>
+    <!-- Mega Menu -->
+    <script type="text/javascript" src="js/components/tnMegamenu.js"></script>
+    <!-- Header -->
+    <script type="text/javascript" src="js/components/tnHeader.js"></script>
+    <!-- GoTop -->
+    <script type="text/javascript" src="js/components/tnGotop.js"></script>
+    <!-- Main -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+    $(function() {
+        $("#Burger").on('click', function() {
+            $("#navBar , #mobile_login").toggle();
+        });
+
+
+    });
+    </script>
+
+</html>
